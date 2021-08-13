@@ -135,6 +135,37 @@ input[type='text'] {
   height: 2rem;
 }
 
+.container-new {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.parent {
+  display: inline-block;
+}
+
+.parent img {
+  padding: 5%;
+  width: 35vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+
+.data-info h1 {
+  margin: auto;
+}
+
+.data-info {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  font-size: 1.3rem;
+}
+
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
