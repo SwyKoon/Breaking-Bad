@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
-import Home from './components/Home'
 import Individual from './components/Individual'
 import PostPagination from './components/PostPagination';
 
@@ -10,7 +9,7 @@ function App() {
       <div className="container">
         <Switch>
           <Route exact path='/'>
-            <Home />
+            <PostPagination />
           </Route>
           <Route path={`/character/:id`}>
             <Individual />
